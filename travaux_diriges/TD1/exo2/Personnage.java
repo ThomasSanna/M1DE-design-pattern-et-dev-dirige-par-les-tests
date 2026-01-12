@@ -1,4 +1,4 @@
-package TD1.code_enonce;
+package TD1.exo2;
 
 
 public class Personnage  {
@@ -7,20 +7,24 @@ public class Personnage  {
      private String arme;    
      public Personnage(String nom, String categorie)
      {
-    	 this.nom=nom;
-    	 this.categorie=categorie;
-    	 if (categorie.equals("Tauren"))
-    	   arme="Bouclier";
-    	 else
-        	 if (categorie.equals("Orc"))
-          	   arme="Baton";
-          	 else
-            	 if (categorie.equals("Troll"))
-              	   arme="Dague";
-              	 else
-                	 if (categorie.equals("Humain"))
-                  	   arme="Epee";
-                  	 else arme=null;
+		this.nom=nom;
+		this.categorie=categorie;
+		if (categorie.equals("Tauren"))
+		arme="Bouclier";
+		else
+			if (categorie.equals("Orc"))
+			arme="Baton";
+			else
+				if (categorie.equals("Troll"))
+				arme="Dague";
+				else
+					if (categorie.equals("Humain"))
+					arme="Epee";
+					else 
+						if (categorie.equals("Monstre"))
+						arme="Couteau";
+						else 
+							arme=null;
      }
      public void seBattre(){
        	 if (arme.equals("Bouclier"))

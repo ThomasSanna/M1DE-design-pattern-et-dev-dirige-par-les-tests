@@ -1,4 +1,4 @@
-package  TD1.code_enonce;
+package  TD1.exo2;
 
 public class Jeu {
 
