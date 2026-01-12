@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1137,340" id="question1" metadata="uml2-1.0" initialized="true" scrolledX="1" tag="1000" key="32303037303533312D3130303020544435474F4643726561742F766974746F72695F65">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.0" name="Simulateur" location="450,45" size="93,81" id="question1/Simulateur" runTimeClassModel="simuler(),Simulateur(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,32">
+      <children xsi:type="editmodel:MethodEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Simulateur" location="24,51" id="question1/Simulateur#Simulateur(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" targetConnections="//@children.6/@sourceConnections.0" name="simuler" id="question1/Simulateur#simuler()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TestSimulateur" location="495,255" size="119,65" id="question1/TestSimulateur" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="42,16">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="question1/TestSimulateur#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="question1/TestSimulateur-Standard::Call->question1/Simulateur" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="23,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,81"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" location="572,330" size="29,14" automaticRelocationAllowed="false" locationOnWireFromSource="-147.0" distanceFromWire="-68.0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Orc" location="171,203" size="75,81" id="question1/Orc" runTimeClassModel="Orc(Ljava.lang.String;),animer()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,32">
+      <children xsi:type="editmodel:MethodEditModel" name="Orc" id="question1/Orc#Orc(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="animer" id="question1/Orc#animer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="question1/Personnage&lt;-question1/Orc" source="//@children.2" target="//@children.5/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Troll" location="286,203" size="75,81" id="question1/Troll" runTimeClassModel="animer(),Troll(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,32">
+      <children xsi:type="editmodel:MethodEditModel" name="Troll" id="question1/Troll#Troll(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="animer" id="question1/Troll#animer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="question1/Personnage&lt;-question1/Troll" source="//@children.3" target="//@children.5/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="Personnage" location="153,50" size="101,97" id="question1/Personnage" runTimeClassModel="animer(),nom,Personnage(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="61,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="question1/Personnage#nom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,32">
+      <children xsi:type="editmodel:MethodEditModel" name="Personnage" id="question1/Personnage#Personnage(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="animer" id="question1/Personnage#animer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="question1/Personnage@monPersonnage+question1/Simulateur@" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="monPersonnage" location="101,37" id="question1/Personnage@monPersonnage+question1/Simulateur@|question1/Personnage#monPersonnage" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - monPersonnage" location="261,66" size="88,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="261,94" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42" id="question1/Personnage@monPersonnage+question1/Simulateur@|question1/Simulateur#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Humain" location="50,203" size="78,81" id="question1/Humain" runTimeClassModel="animer(),Humain(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="55,32">
+      <children xsi:type="editmodel:MethodEditModel" name="Humain" id="question1/Humain#Humain(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="animer" id="question1/Humain#animer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0" autoLocated="true" id="question1/Personnage&lt;-question1/Humain" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,96" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="555,165" size="148,24" fontInfo="Arial-8-0" note="monPersonnage.simuler()">
+    <sourceConnections xsi:type="editmodel:IndicationEditModel" source="//@children.6" target="//@children.0/@children.1/@children.1" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,4" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="49,14"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="615,16" size="440,150" fontInfo="Arial-8-0" note="public Simulateur(String typePersonnage, String nom){&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;if (typePersonnage.equals(&quot;troll&quot;))&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;monPersonnage=new Troll(nom);&#xD;&#xA;&#x9;&#x9;else if (typePersonnage.equals(&quot;orc&quot;))&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;     monPersonnage=new Orc(nom);&#xD;&#xA;&#x9;&#x9;&#x9;else  if (typePersonnage.equals(&quot;humain&quot;))&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;monPersonnage=new Humain(nom);&#xD;&#xA; }&#xD;&#xA;">
+    <sourceConnections xsi:type="editmodel:IndicationEditModel" source="//@children.7" target="//@children.0/@children.1/@children.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,80" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,6"/>
+    </sourceConnections>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="exercice4Proxy_2" size="1025,353" id="exercice4Proxy" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020544436474F465374727563742F41646D696E697374726174657572">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.1/@sourceConnections.1" name="FicheVehicule" location="308,50" size="334,97" id="exercice4Proxy/FicheVehicule" runTimeClassModel="iFilm,FicheVehicule(Ljava.lang.String;Ljava.lang.String;),visualiserFilm()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="53,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="iFilm" id="exercice4Proxy/FicheVehicule#iFilm"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="311,32">
+      <children xsi:type="editmodel:MethodEditModel" name="FicheVehicule" id="exercice4Proxy/FicheVehicule#FicheVehicule(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="visualiserFilm" id="exercice4Proxy/FicheVehicule#visualiserFilm()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="exercice4Proxy/IFilm@iFilm+exercice4Proxy/FicheVehicule@ficheVehicule1" source="//@children.0" target="//@children.2" label="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ficheVehicule1" location="0,39" id="exercice4Proxy/FicheVehicule@ficheVehicule1|exercice4Proxy/FicheVehicule#ficheVehicule1" attachSource="true" roleLabel="//@children.0/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" name="- ficheVehicule1" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Test" location="840,225" size="65,65" id="exercice4Proxy/Test" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="42,16">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="exercice4Proxy/Test#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,16" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,97"/>
+      <children xsi:type="editmodel:WireLabelEditModel" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.1" label="//@children.1/@sourceConnections.1/@children.2" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,16" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,97"/>
+      <children xsi:type="editmodel:WireLabelEditModel" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.0/@sourceConnections.0" name="IFilm" location="108,50" size="91,79" id="exercice4Proxy/IFilm" runTimeClassModel="visualiser()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,16">
+      <children xsi:type="editmodel:MethodEditModel" name="visualiser" id="exercice4Proxy/IFilm#visualiser()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="Film" location="50,179" size="147,97" id="exercice4Proxy/Film" runTimeClassModel="visualiser(),Film(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="nomFichier" id="exercice4Proxy/Film#nomFichier"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,32">
+      <children xsi:type="editmodel:MethodEditModel" name="Film" id="exercice4Proxy/Film#Film(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="visualiser" id="exercice4Proxy/Film#visualiser()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0" autoLocated="true" id="exercice4Proxy/IFilm&lt;-exercice4Proxy/Film" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,79" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FilmProxy" location="285,179" size="312,129" id="exercice4Proxy/FilmProxy" runTimeClassModel="FilmProxy(Ljava.lang.String;Ljava.lang.String;),visualiser()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="nomFichierFilm" id="exercice4Proxy/FilmProxy#nomFichierFilm"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nomFichierPhoto" id="exercice4Proxy/FilmProxy#nomFichierPhoto"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="289,48">
+      <children xsi:type="editmodel:MethodEditModel" name="FilmProxy" id="exercice4Proxy/FilmProxy#FilmProxy(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="afficherPhoto" id="exercice4Proxy/FilmProxy#afficherPhoto()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="visualiser" id="exercice4Proxy/FilmProxy#visualiser()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="exercice4Proxy/IFilm&lt;-exercice4Proxy/FilmProxy" source="//@children.4" target="//@children.3/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="exercice4Proxy/Film@film1+exercice4Proxy/FilmProxy@filmProxy" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.1/@children.1" label="//@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="filmProxy" location="0,48" id="exercice4Proxy/Film@film1+exercice4Proxy/FilmProxy@filmProxy|exercice4Proxy/FilmProxy#filmProxy" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="film1" location="147,48" id="exercice4Proxy/Film@film1+exercice4Proxy/FilmProxy@filmProxy|exercice4Proxy/Film#film1" multiplicityLabel="//@children.4/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - film1" location="204,206" size="32,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="204,234" size="6,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="658,178" fontInfo="Arial-8-0" note="f"/>
+  <children xsi:type="editmodel:NotepadEditModel" location="715,55" size="61,46" fontInfo="Arial-8-0" note="dgjtujydf&#xD;&#xA;"/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

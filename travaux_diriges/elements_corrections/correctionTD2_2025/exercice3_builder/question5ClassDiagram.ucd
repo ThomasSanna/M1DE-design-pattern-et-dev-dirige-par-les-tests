@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="question5ClassDiagram" foregroundRGB="255,255,255" id="{UMLID=_2qH5oPjMEeC45MMGBfcAyg,JavaID=question5}" metadata="uml2-1.0" initialized="true" tag="1000" key="323030373036323920544435474F4643726561742F766974746F72695F65">
+  <children xsi:type="editmodel:ClassEditModel" name="TestSimulateur" location="755,318" size="116,62" stereotype="" id="{UMLID=_3jo7kPjMEeC45MMGBfcAyg,JavaID=question5/TestSimulateur}" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,16">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="{UMLID=_3krdYPjMEeC45MMGBfcAyg,JavaID=question5/TestSimulateur#main([Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_3qDFkvjMEeC45MMGBfcAyg,JavaID=question5/TestSimulateur->question5/Simulateur}" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" foregroundRGB="255,255,255" location="951,82" size="87,28" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-270.0" distanceFromWire="-251.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,78"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_fz7TEPjOEeC45MMGBfcAyg,JavaID=question5/TestSimulateur->question5/SimpleDecorBuilder}" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" foregroundRGB="255,255,255" location="871,401" size="87,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,62" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Simulateur" location="570,270" size="124,110" stereotype="" id="{UMLID=_3pwKovjMEeC45MMGBfcAyg,JavaID=question5/Simulateur}" runTimeClassModel="monPersonnage,setDecor(Lquestion5.DecorBuilder;),simuler(),Simulateur(Ljava.lang.String;Lquestion5.DecorBuilder;),monDecor,getPersonnage(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,32"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,64">
+      <children xsi:type="editmodel:MethodEditModel" name="Simulateur" id="{UMLID=_3u-B1fjMEeC45MMGBfcAyg,JavaID=question5/Simulateur#Simulateur(Ljava.lang.String;Lquestion5.DecorBuilder;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPersonnage" id="{UMLID=_3u-B2vjMEeC45MMGBfcAyg,JavaID=question5/Simulateur#getPersonnage(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="simuler" id="{UMLID=_3u-B3_jMEeC45MMGBfcAyg,JavaID=question5/Simulateur#simuler()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDecor" id="{UMLID=_3u-B4PjMEeC45MMGBfcAyg,JavaID=question5/Simulateur#setDecor(Lquestion5.DecorBuilder;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_3vj3sfjMEeC45MMGBfcAyg,JavaID=question5/Simulateur->question5/DecorBuilder}" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" foregroundRGB="255,255,255" location="694,252" size="87,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,130"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_3vtos_jMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/Simulateur@ownedEnd}" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="651,473" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="71,110" id="{UMLID=_3vtotPjMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/Simulateur@ownedEnd|question5/Simulateur#ownedEnd}" attachSource="true" roleLabel="//@children.1/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="992,73" size="61,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-399.00000000000006" distanceFromWire="381.99999999999994" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="monDecor" location="51,0" id="{UMLID=_3u-B0_jMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/Simulateur@ownedEnd|question5/Decor#monDecor}" multiplicityLabel="//@children.1/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.1/@sourceConnections.1/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- monDecor" location="648,559" size="56,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="628,559" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.5/@sourceConnections.1 //@children.4/@sourceConnections.1" name="DecorBuilder" location="1050,131" size="120,140" stereotype="interface" id="{UMLID=_3pwKoPjMEeC45MMGBfcAyg,JavaID=question5/DecorBuilder}" runTimeClassModel="ajouterVegetal(),ajouterEdifice(),initialiserDecor(),getDecor(),ajouterChemin()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,80">
+      <children xsi:type="editmodel:MethodEditModel" name="initialiserDecor" id="{UMLID=_3zlcEPjMEeC45MMGBfcAyg,JavaID=question5/DecorBuilder#initialiserDecor()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterEdifice" id="{UMLID=_3zlcFPjMEeC45MMGBfcAyg,JavaID=question5/DecorBuilder#ajouterEdifice()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterVegetal" id="{UMLID=_3zlcFfjMEeC45MMGBfcAyg,JavaID=question5/DecorBuilder#ajouterVegetal()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterChemin" id="{UMLID=_3zlcFvjMEeC45MMGBfcAyg,JavaID=question5/DecorBuilder#ajouterChemin()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDecor" id="{UMLID=_3zlcEfjMEeC45MMGBfcAyg,JavaID=question5/DecorBuilder#getDecor()}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" showAttributeParameterType="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1 //@children.4/@sourceConnections.0 //@children.5/@sourceConnections.0" name="Decor" location="590,580" size="120,94" stereotype="" id="{UMLID=_3u-B1PjMEeC45MMGBfcAyg,JavaID=question5/Decor}" runTimeClassModel="afficher(),description,ajouterElement(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="description" id="{UMLID=_32Q8ofjMEeC45MMGBfcAyg,JavaID=question5/Decor#description}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,32">
+      <children xsi:type="editmodel:MethodEditModel" name="afficher" id="{UMLID=_32Q8o_jMEeC45MMGBfcAyg,JavaID=question5/Decor#afficher()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterElement" id="{UMLID=_32Q8pPjMEeC45MMGBfcAyg,JavaID=question5/Decor#ajouterElement(Ljava.lang.String;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DesignDecorBuilder" location="1169,530" size="146,126" stereotype="" id="{UMLID=_3pwKofjMEeC45MMGBfcAyg,JavaID=question5/DesignDecorBuilder}" runTimeClassModel="ajouterVegetal(),monDecor,ajouterEdifice(),initialiserDecor(),getDecor(),ajouterChemin()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="66,16"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,80">
+      <children xsi:type="editmodel:MethodEditModel" name="initialiserDecor" id="{UMLID=_33UFhPjMEeC45MMGBfcAyg,JavaID=question5/DesignDecorBuilder#initialiserDecor()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterEdifice" id="{UMLID=_33UFhvjMEeC45MMGBfcAyg,JavaID=question5/DesignDecorBuilder#ajouterEdifice()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterVegetal" id="{UMLID=_33UFh_jMEeC45MMGBfcAyg,JavaID=question5/DesignDecorBuilder#ajouterVegetal()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterChemin" id="{UMLID=_33UFhfjMEeC45MMGBfcAyg,JavaID=question5/DesignDecorBuilder#ajouterChemin()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDecor" id="{UMLID=_33UFgfjMEeC45MMGBfcAyg,JavaID=question5/DesignDecorBuilder#getDecor()}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_33wKZPjMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/DesignDecorBuilder@ownedEnd}" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="945,603" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,87" id="{UMLID=_33wKZfjMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/DesignDecorBuilder@ownedEnd|question5/DesignDecorBuilder#ownedEnd}" attachSource="true" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="1101,596" size="61,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="monDecor" location="120,37" id="{UMLID=_33UFgPjMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/DesignDecorBuilder@ownedEnd|question5/Decor#monDecor}" multiplicityLabel="//@children.4/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- monDecor" location="717,596" size="56,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="717,624" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:RealizationEditModel" size="2,1" description="Realization" autoLocated="true" id="{UMLID=_Tg2icPjPEeC45MMGBfcAyg,JavaID=question5/DesignDecorBuilder->question5/DecorBuilder}" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.1/@children.1" label="//@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,140"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="1179,394" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="SimpleDecorBuilder" location="920,440" size="148,126" stereotype="" id="{UMLID=_3357YPjMEeC45MMGBfcAyg,JavaID=question5/SimpleDecorBuilder}" runTimeClassModel="ajouterVegetal(),monDecor,ajouterEdifice(),initialiserDecor(),getDecor(),ajouterChemin()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="66,16"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,80">
+      <children xsi:type="editmodel:MethodEditModel" name="initialiserDecor" id="{UMLID=_34DsYvjMEeC45MMGBfcAyg,JavaID=question5/SimpleDecorBuilder#initialiserDecor()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterEdifice" id="{UMLID=_34DsZvjMEeC45MMGBfcAyg,JavaID=question5/SimpleDecorBuilder#ajouterEdifice()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterVegetal" id="{UMLID=_34DsYfjMEeC45MMGBfcAyg,JavaID=question5/SimpleDecorBuilder#ajouterVegetal()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterChemin" id="{UMLID=_34DsZ_jMEeC45MMGBfcAyg,JavaID=question5/SimpleDecorBuilder#ajouterChemin()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDecor" id="{UMLID=_34DsY_jMEeC45MMGBfcAyg,JavaID=question5/SimpleDecorBuilder#getDecor()}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_34gYUfjMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/SimpleDecorBuilder@ownedEnd}" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="815,542" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,116" id="{UMLID=_34gYUvjMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/SimpleDecorBuilder@ownedEnd|question5/SimpleDecorBuilder#ownedEnd}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="852,535" size="61,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="913,563" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="monDecor" location="110,0" id="{UMLID=_34DsYPjMEeC45MMGBfcAyg,JavaID=question5/Decor@monDecor+question5/SimpleDecorBuilder@ownedEnd|question5/Decor#monDecor}" multiplicityLabel="//@children.5/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- monDecor" location="693,530" size="56,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-31.0" distanceFromWire="21.0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="707,559" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:RealizationEditModel" size="2,1" description="Realization" autoLocated="true" id="{UMLID=_SZB-wPjPEeC45MMGBfcAyg,JavaID=question5/SimpleDecorBuilder->question5/DecorBuilder}" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.1/@children.1" label="//@children.5/@sourceConnections.1/@children.2" sourceEnd="//@children.5/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="8,140"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="1068,349" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Naturel" methodSorter="Naturel" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>
